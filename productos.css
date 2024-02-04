@@ -1,0 +1,17 @@
+.encabezado{
+    background: #BBBBBB;
+}
+
+.navegacion .list{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.navegacion .enlace{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
