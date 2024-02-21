@@ -1,54 +1,165 @@
-.titulo-principal{
-    padding-left: 30px;
+.encabezado{
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-.banner{
-    width: 100%;
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 20px;
+.navegation{
+    position: absolute;
+    top:110px;
+    right: 0px;
 }
 
-.titulo-centralizado{
-    text-align: center;
+.navegation .list{
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-p{
-    text-align: center;
-}
 
-.negrita{
+.navegation .enlace{
+    text-transform: uppercase;
+    color: #000000;
     font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-#mision{
-    font-size: 20px;
+.navegation .enlace:hover{
+    color: #C78C19;
+    text-decoration: underline;
 }
 
-.negritas{
-    font-weight: bold;
-    color: red;
-    font-style: italic;
+.products{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-.diferenciales{
-    background: #FFFFFF;
-    padding: 30px;
-}
-
-ul{
+.products .lista-detalles{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.items{
-    font-style: italic;
+.products .lista-detalles:hover{
+    border-color: #C78C19;
 }
 
-.imagenDiferenciales{
+.products .lista-detalles:active{
+    border-color:#088C19 ;
+}
+
+.products .titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.products .lista-detalles:hover .titulo{
+     font-size: 33px;
+}
+
+.description{
+    font-size: 18px;
+}
+
+.prize{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.PieDePagina{
+    text-align: center;
+    background: url(imagenes/bg.jpg); 
+    padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
+
+.contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.formulario{
+    margin: 40px 0;
+}
+
+.formulario .rotulo{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.formulario .caja{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
+}
+
+.opciones{
+    display: block;
+}
+
+.check{
+    margin: 20px 0;
+}
+
+.field{
+    margin: 10px 0;
+}
+
+.seccion{
+    margin: 5px 0 0 8px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: .6s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.05);
+}
+
+.tabla{
+    margin: 40px 40px;
+}
+
+.tab-prin{
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.tab-col, .columna{
+    border: 1px solid #000000;
+    padding: 5px 10px;
 }
