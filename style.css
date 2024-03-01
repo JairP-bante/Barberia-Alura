@@ -273,6 +273,51 @@
 
 
 
+@media screen and (max-width:480px){
+    .logo-barbershop{
+        text-align: center;
+    }
+
+    .navegation{
+        position: relative;
+        top: 10px;
+    }
+
+    .enlace{
+      display: block;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .box, .principal, .map, .contenido-diferenciales, .video{
+        width: auto;
+    }
+
+    .map{
+        margin: 0 20px;
+    }
+
+    .lista-diferenciales{
+        display: block;
+        margin: 0 0 20px 20px;
+        width: 100%;
+    }
+
+    .imagen-diferenciales{
+        width: 89%;
+        margin: 0 0 0 20px;
+        box-shadow: 3px 6px 10px 3px black;
+    }
+
+    .video{
+        margin: 20px 20px 0 20px;
+    }
+
+}
+
+
+
+
 
 
 
